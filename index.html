@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - Oracle ONE Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/imagenes/Logo.png">
+        <h1>Encriptador de texto</h1>
+        <h2>Challenge 1 Alura Latam!</h2>
+    </header>
+    <main>
+        <section>
+            <textarea type="text" class="input-text" cols="40" rows="6" placeholder="ingrese aquí el texto a encriptar"></textarea>
+            <h6>SOLO LETRAS MINÚSCULAS Y SIN ACENTOS! </h6>
+            <div>
+                <button type="button" onclick="btnencriptar()">Encriptar</button>
+                <button type="button" onclick="btndesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="output-section">
+            <textarea type="text" cols="18" rows="8" class="input-text-area"></textarea>
+            <button type="button" onclick="btncopiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
