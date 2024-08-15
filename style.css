@@ -15,7 +15,7 @@ main {
 
 .input-text{
     margin-top: 90px;
-    background:url('/imagenes/5eee3e3205354fcf02b75fee589350b6.gif');
+    background:url('./imagenes/5eee3e3205354fcf02b75fee589350b6.gif');
     color:azure;  
     display: flex; 
 }
@@ -23,7 +23,7 @@ main {
 .input-text-area {
     margin-top: 20px;
     margin-left: 90px;
-    background:url('/imagenes/5eee3e3205354fcf02b75fee589350b6.gif');
+    background:url('./imagenes/5eee3e3205354fcf02b75fee589350b6.gif');
     color:azure;
     position: relative;
 }
@@ -36,7 +36,7 @@ main {
 
 .input-text-area {
     margin-top: 20px;
-    background: url('/imagenes/5eee3e3205354fcf02b75fee589350b6.gif');
+    background: url('./imagenes/5eee3e3205354fcf02b75fee589350b6.gif');
     color: azure;
     position: relative;
 }
